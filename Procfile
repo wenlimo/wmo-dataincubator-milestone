@@ -1,1 +1,1 @@
-web: gunicorn app:wrapper
+web: python wrapper.py
