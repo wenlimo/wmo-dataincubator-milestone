@@ -4,6 +4,7 @@ hello_flask: First Python-Flask webapp
 """
 from flask import Flask, render_template, request
 from functions import tickerrequest
+import os
 app = Flask(__name__)
 
 @app.route('/')
